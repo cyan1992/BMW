@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 body{
     background-image: url(images/automoyive_bg.jpg);
     font-family: Arial, Helvetica, sans-serif;
@@ -26,12 +26,12 @@ nav ul {
     list-style: none;
 }
 
-nav .bodylogo{
+/* nav {
     font-size: 16px;
     color: whitesmoke;
     font-weight: bold;
     text-align: center;
-}
+} */
 
 a {
     text-decoration: none;
@@ -52,12 +52,6 @@ nav ul li a:hover {
     background-color: dodgerblue;
 }
 
-.bodylogo {
-    cursor: pointer;
-    /* display: inline-block; */
-    text-align: center;
-}
-
 h1{
     color: whitesmoke;
     margin-top: 150px;
@@ -74,16 +68,24 @@ h1{
 }
 
 .btn:hover {
-    background-color: dodgerblue;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .logo_img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
-span{
-    position: relative;
-    display: inline-block;
+
+.LogoTitleStyle {
+    cursor: pointer;
+    font-size: 16px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
 }
+
 
 
