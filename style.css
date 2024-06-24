@@ -26,10 +26,11 @@ nav ul {
     list-style: none;
 }
 
-nav .logo{
-    font-size: 30%;
+nav .bodylogo{
+    font-size: 16px;
     color: whitesmoke;
     font-weight: bold;
+    text-align: center;
 }
 
 a {
@@ -48,11 +49,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: cyan;
+    background-color: dodgerblue;
 }
 
-.logo {
+.bodylogo {
     cursor: pointer;
+    /* display: inline-block; */
+    text-align: center;
 }
 
 h1{
@@ -65,12 +68,22 @@ h1{
     margin-top: 20px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: cyan;
+    background-color: dodgerblue;
     border-radius: 20px;
     transition: 0.5s;
 }
 
 .btn:hover {
-    background-color: rgb(17, 227, 245);
+    background-color: dodgerblue;
+}
+
+.logo_img{
+    width: 32px;
+    height: 32px;
+}
+span{
+    position: relative;
+    display: inline-block;
+    
 }
 
