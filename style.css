@@ -52,10 +52,11 @@ nav ul li a:hover {
     background-color: dodgerblue;
 }
 
-h1{
+pre{
     color: whitesmoke;
     margin-top: 150px;
     font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -87,5 +88,23 @@ h1{
     padding: 10px;
 }
 
+.selectioncolor {
+    color: white;
+    padding-top: 250px;
+}
+
+article {
+    padding-top: 5px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
 
 
+.article:hover::after {
+    background-image: url("/images/Light.png");
+    cursor: pointer;
+}
