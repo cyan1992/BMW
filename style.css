@@ -3,15 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root{
+  --white: #ffffff;
+  --blue: dodgerblue;
+  --black: #000000;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   height: auto;
-  /* background-size: cover; */
-  /* overflow: hidden; */
 }
 
-.container {
+.head {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.head__logo__group {
+  display: flex;
+  padding: 20px;
+}
+.head__bg {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+}
+
+.head__logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.head__title {
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--white);
+  font-weight: bold;
+  margin: auto;
+  padding: 10px ;
+}
+
+
+.head__menu {
+  padding: 20px;
+  
+}
+
+.head__container {
   padding: 3%;
   margin: 0 auto;
   position: absolute;
@@ -19,24 +62,17 @@ body {
 
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 nav ul {
   list-style: none;
 }
 
-/* nav {
-    font-size: 16px;
-    color: whitesmoke;
-    font-weight: bold;
-    text-align: center;
-} */
-
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: var(--white);
 }
 
 nav ul li {
@@ -50,11 +86,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: dodgerblue;
+  background-color: var(--blue);
 }
 
 pre {
-  color: whitesmoke;
+  color: var(--white);
   margin-top: 150px;
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
@@ -64,41 +100,26 @@ pre {
   margin-top: 20px;
   display: inline-block;
   padding: 10px 20px;
-  background-color: dodgerblue;
+  background-color: var(--blue);
   border-radius: 20px;
   transition: 0.5s;
 }
 
 .btn:hover {
   background-color: whitesmoke;
-  color: black;
-}
-
-.logo_img {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.LogoTitleStyle {
-  cursor: pointer;
-  font-size: 16px;
-  color: whitesmoke;
-  font-weight: bold;
-  margin: auto;
-  padding: 10px;
+  color: var(--black);
 }
 
 .selectioncolor {
-  color: white;
+  color: var(--white);
   padding-top: 250px;
 }
 
 .sectionpart {
   width: 100%;
   height: auto;
-  color: white;
-  background-color: black;
+  color: var(--white);
+  background-color: var(--black);
   text-align: center;
   margin: auto;
   padding: 40px;
@@ -117,16 +138,8 @@ pre {
   padding: 20px;
   margin: auto;
 }
-.imghead {
-  width: 100%;
-  height: auto;
-  z-index: -1;
-  position: absolute;
-}
 
-.head {
-  position: relative;
-}
-pre {
-    white-space: pre-wrap;
+pre,
+.minidescription {
+  white-space: pre-wrap;
 }
