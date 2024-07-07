@@ -124,7 +124,7 @@ pre {
   padding: 40px;
 }
 
-.ix {
+.colorset__iximage {
   width: 1024px;
   height: auto;
   content: url(assets/png/lightoff.png);
@@ -132,7 +132,7 @@ pre {
   padding: 20px;
 }
 
-.ix:hover {
+.colorset__iximage:hover {
   content: url(assets/png/lighton.png);
   padding: 20px;
   margin: auto;
