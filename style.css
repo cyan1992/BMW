@@ -18,9 +18,7 @@ body {
 
 .head {
   position: relative;
-  display: inline-block;
-  width: 100%;
-  height: auto;
+ 
 }
 .head__logo__group {
   display: flex;
@@ -58,10 +56,17 @@ body {
   position: absolute;
 }
 
+.main__title {
+  width: 100%;
+  height: auto;
+  
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
+  align-items: normal;
 }
 
 nav ul {
@@ -141,7 +146,7 @@ pre {
 .main__paragraph {
   white-space: pre-wrap;
   margin-right: 40%;
-  padding: 50px 5px;
+  padding: 140px 5px;
 }
 
 .main{
