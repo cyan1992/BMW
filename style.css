@@ -59,9 +59,33 @@ body {
 .main__title {
   width: 100%;
   height: auto;
-  
 }
 
+.main__paragraph {
+  white-space: pre-wrap;
+  margin-right: 40%;
+  padding: 80px 5px;
+}
+
+.main__btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--blue);
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.main__btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.main {
+  padding: 10px 30px;
+}
+ 
 nav {
   display: flex;
   justify-content: space-between;
@@ -99,16 +123,6 @@ pre {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main__btn {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--blue);
-  border-radius: 50px;
-  transition: 0.5s;
-}
-
 .btn:hover {
   background-color: whitesmoke;
   color: var(--black);
@@ -143,16 +157,6 @@ pre {
   margin: auto;
 }
 
-.main__paragraph {
-  white-space: pre-wrap;
-  margin-right: 40%;
-  padding: 140px 5px;
-}
-
-.main {
-  padding: 20px 30px;
-}
-
 .btn_group {
   margin: auto;
   width: 100%;
@@ -161,10 +165,3 @@ pre {
   background-color: var(--black);
   text-align: center;
 }
-
-/* .btn_blue:hover {
-  .colorset__iximage {
-    content: url(assets/png/bluebmw.png) !important;
-  }
-  cursor: pointer;
-} */
