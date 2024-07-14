@@ -146,7 +146,7 @@ pre {
 .colorset__iximage {
   width: 1024px;
   height: auto;
-  content: url(assets/png/lightoff.png);
+  /* content: url(assets/png/lightoff.png); */
   margin: auto;
   padding: 20px;
 }

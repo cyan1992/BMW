@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A exercise of frontend, Begining road." />
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <script type="text/js" src="scripts.js"></script>
+    <script src="scripts.js"></script>
     <title>BMW IX Series</title>
     <link rel="icon" type="image/png" href="assets/logo/Favicon.png" />
   </head>
@@ -45,11 +45,12 @@ The automaker is owned by the BMW Group and has its headquarters in Munich, Germ
     <div class="colorset">
       <h1>BMW IX 2024</h1>
       <h2>Build your own</h2>
-      <img class="colorset__iximage" id="colorset__iximage" />
+      <img src="assets/png/lightoff.png" name="colorset__iximage" class="colorset__iximage" id="colorset__iximage" />
     </div>
     <div class="btn_group">
       <img class="btn_blue" src="assets/png/btn_blue.png" alt="cyan"/>
-      <img class="btn_cyan" src="assets/png/btn_cyan.png" alt="cyan" onclick="cyan()"/>
+      <img id="btn_cyan" src="assets/png/btn_cyan.png" alt="cyan" onclick="cyan()" onmouseover="g()"/>
+      <!-- <button onclick="cyan()">CYAN</button> -->
       <img class="btn_gray" src="assets/png/btn_gray.png" alt="cyan"/>
       <img class="btn_green" src="assets/png/btn_green.png" alt="cyan"/>
       <img class="btn_orange" src="assets/png/btn_orange.png" alt="cyan"/>
