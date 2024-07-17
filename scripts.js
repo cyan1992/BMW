@@ -1,41 +1,107 @@
-// function cyan() {
-//     // var cyan = document.getElementsByClassName('btn_cyan');
-//     let target = document.getElementById("colorset__iximage");
-//     target.src = "assets/png/cyanbmw.png";
-//     // target.setAttribute('src', "assets/png/cyanbmw.png");
-// }
+// Blue Color --------------------------------------------------------------------------------------------
+function blue(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/bluebmw.png");
+}
+function blueout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Blue Color ----------------------------------------------------------------------------------------
 
-
-// function cyan() {
-//     var img = document.getElementById('colorset__iximage');
-//     if (img.src.endsWith('/assets/png/lightoff.png')) {
-//         img.src = 'assets/png/cyanbmw.png';
-//     } else {
-//         img.src = 'assets/png/cyanbmw.png';
-//     }
-// }
-
-
-
-    //var image = document.getElementsByName('btn_cyan');
-
-    // image.addEventListener('click', function(){
-    //     cyan();
-    // });
-    let hhhhh= document.getElementById("btn_cyan");
-    // hhhhh.addEventListener('onmouseover',function(){
-    //     console.log("bahman")
-    //     let target = document.getElementById("colorset__iximage");
-    //     target.setAttribute('src', "assets/png/cyanbmw.png");
-    // })
-    function g(){
-        console.log("bahman")
+// Cyan Color --------------------------------------------------------------------------------------------
+    function cyan(){
         let target = document.getElementById("colorset__iximage");
         target.setAttribute('src', "assets/png/cyanbmw.png");
     }
-    function cyan(){
+    function cyanout(){
         var target = document.getElementById("colorset__iximage");
         console.log(target)
-         target.setAttribute('src', "assets/png/cyanbmw.png");
-        //target.src = 'assets/png/cyanbmw.png';
+         target.setAttribute('src', "assets/png/lightoff.png");
     }
+// End Cyan Color ----------------------------------------------------------------------------------------
+
+// Gray Color --------------------------------------------------------------------------------------------
+function gray(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/greybmw.png");
+}
+function grayout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Gray Color -----------------------------------------------------------------------------------------
+
+// Green Color --------------------------------------------------------------------------------------------
+function green(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/greenbmw.png");
+}
+function greenout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Green Color ----------------------------------------------------------------------------------------
+
+// Cyan Color ---------------------------------------------------------------------------------------------
+function cyan(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/cyanbmw.png");
+}
+function cyanout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Cyan Color ------------------------------------------------------------------------------------------
+
+// Orange Color --------------------------------------------------------------------------------------------
+function orange(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/orangebmw.png");
+}
+function orangeout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Orange Color ----------------------------------------------------------------------------------------
+
+// Red Color -----------------------------------------------------------------------------------------------
+function red(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/redbmw.png");
+}
+function redout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Red Color -------------------------------------------------------------------------------------------
+
+// Violet Color --------------------------------------------------------------------------------------------
+function violet(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/violetbmw.png");
+}
+function violetout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Violet Color ----------------------------------------------------------------------------------------
+
+// Yellow Color --------------------------------------------------------------------------------------------
+function yellow(){
+    let target = document.getElementById("colorset__iximage");
+    target.setAttribute('src', "assets/png/yellowbmw.png");
+}
+function yellowout(){
+    var target = document.getElementById("colorset__iximage");
+    console.log(target)
+     target.setAttribute('src', "assets/png/lightoff.png");
+}
+// End Yellow Color ----------------------------------------------------------------------------------------
