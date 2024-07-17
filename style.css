@@ -164,3 +164,15 @@ pre {
   background-color: var(--black);
   text-align: center;
 }
+
+.btn_blue,
+.btn_cyan,
+.btn_gray,
+.btn_green,
+.btn_orange,
+.btn_red,
+.btn_violet,
+.btn_yellow {
+  height: 30px;
+  width: auto;
+}
