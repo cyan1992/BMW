@@ -18,7 +18,6 @@ body {
 
 .head {
   position: relative;
- 
 }
 .head__logo__group {
   display: flex;
@@ -85,7 +84,7 @@ body {
 .main {
   padding: 10px 30px;
 }
- 
+
 nav {
   display: flex;
   justify-content: space-between;
